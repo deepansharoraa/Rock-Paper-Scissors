@@ -4,7 +4,7 @@ user_wins = 0
 computer_wins = 0
 
 options = ["rock", "paper", "scissors"]
-
+print("Hello, Welcome to the game ")
 while True:
     user_input = input("Type Rock/Paper/Scissors or Q to quit: ").lower()
     if user_input == "q":
